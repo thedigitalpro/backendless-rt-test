@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import Backendless from "backendless";
-import { Person } from "person.interface";
+import { Person } from "./person.interface";
 
 const PersonsStore = Backendless.Data.of(Person);
 
